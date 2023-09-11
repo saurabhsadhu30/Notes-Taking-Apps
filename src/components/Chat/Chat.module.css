@@ -1,0 +1,225 @@
+.usersection {
+  width: 75vw;
+  background-color: white;
+}
+.group {
+  display: flex;
+  align-items: center;
+  height: 75px;
+  background-color: #e8e8e8;
+}
+.group img {
+  display: none;
+}
+.group p {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  text-align: left;
+
+  color: black;
+}
+.group_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #0047ff;
+  border-radius: 50%;
+  margin: 0px 15px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+}
+
+.middlediv {
+  background-color: #f7ecdc;
+  height: 63vh;
+  padding: 40px;
+  overflow: scroll;
+}
+
+.messages {
+  display: flex;
+  margin-bottom: 30px;
+}
+.messages p {
+  width: 55vw;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.035em;
+  text-align: justify;
+  color: #000000;
+}
+.messagetimes {
+  margin-right: 20px;
+  width: 10vw;
+}
+.messagetimes p {
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #353535;
+  margin: 7px 0px;
+}
+
+.bottomdiv {
+  height: 200px;
+  background-color: #e8e8e8;
+  padding: 20px 28px;
+  border-bottom-left-radius: 20px;
+}
+
+.bottomdiv textarea {
+  position: absolute;
+  height: 160px;
+  width: 71vw;
+  border-radius: 9px;
+  padding: 8px;
+  border: 1px solid #cccccc;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.035em;
+  text-align: left;
+  resize: none;
+  background-color: white;
+}
+.bottomdiv textarea::placeholder {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #9a9a9a;
+}
+
+.bottomdiv img {
+  position: relative;
+  float: right;
+  top: 120px;
+  right: 12px;
+}
+.bottomdiv img:hover {
+  cursor: pointer;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .usersection {
+    width: 100vw;
+    height: 100vh;
+    background-color: #e8e8e8;
+  }
+  .group {
+    height: 10vh;
+  }
+  .group img {
+    display: flex;
+    margin-left: 15px;
+    width: 22px;
+    height: 18px;
+    color: #5c5c5c;
+  }
+  /* .group p {
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  } */
+  .messagetimes p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0.02em;
+  }
+  .messages p {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.035em;
+  }
+  .middlediv {
+    padding: 18px;
+    height: 62vh;
+  }
+  .messagetimes {
+    width: 250px;
+  }
+  .bottomdiv {
+    height: 20vh;
+    padding: 0px 0px;
+  }
+  .bottomdiv textarea {
+    width: 90vw;
+    height: 16vh;
+    margin: 17px;
+  }
+  .bottomdiv img {
+    top: 28px;
+    right: 28px;
+    width: 25px;
+    height: 23px;
+  }
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+  .group {
+    height: 9vh;
+  }
+  .group p {
+    font-size: 21px;
+  }
+  .group_logo {
+    width: 45px;
+    height: 45px;
+    font-size: 19px;
+  }
+  .messages {
+    margin-bottom: 16px;
+  }
+  .messagetimes p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0.02em;
+  }
+  .messages p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.035em;
+    margin: 0px 0px;
+    margin-bottom: 5px;
+  }
+  .middlediv {
+    padding: 18px;
+    height: 62vh;
+  }
+  .bottomdiv {
+    height: 24vh;
+    border-bottom-left-radius: 16px;
+  }
+  .bottomdiv textarea {
+    height: 18vh;
+  }
+  .bottomdiv img {
+    top: 70px;
+  }
+}
